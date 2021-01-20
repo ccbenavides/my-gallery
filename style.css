@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+.master__max{
+    max-width: 1000px;    
+    margin-left : auto ;
+    margin-right : auto ;
+}
+
+.d-flex{
+    display: flex;
+    
+}
+
+
+.profile{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.profile img {
+    border-radius: 10px;
+}
+.profile h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 5px;
+}
+.profile p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A9A9A9;
+}
+.contadores {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 90px; 
+    padding-top: 30px;
+}
+
+.contadores > div {
+    width: 30%;
+    background : gainsboro;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contadores h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 5px;
+    color: #4E5150;
+}
+.contadores span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    display : block;
+    padding-bottom : 10px;
+    
+    /* Gray 4 */
+    
+    color: #BDBDBD;
+}
+
+.cuadros img {
+    display: block;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 18px;
+}
+
+
+@media (max-width : 700px) {
+    .contadores{
+        max-width: 330px;
+        padding-bottom: 50px; 
+        padding-top: 20px;
+    }
+    .cuadros img {
+        padding:5px;
+        border-radius: 10px;
+    }
+}
